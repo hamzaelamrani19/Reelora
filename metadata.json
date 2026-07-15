@@ -1,0 +1,6 @@
+{
+  "name": "NetMirror",
+  "description": "A streaming platform clone with movie rows, top 10 lists, and interactive details modals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
