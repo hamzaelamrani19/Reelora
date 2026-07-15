@@ -7,9 +7,10 @@ import { Movie } from "@/lib/data";
 interface HeroProps {
   movie: Movie;
   onOpenModal: (movie: Movie) => void;
+  onPlay?: (movie: Movie) => void;
 }
 
-export default function Hero({ movie, onOpenModal }: HeroProps) {
+export default function Hero({ movie, onOpenModal, onPlay }: HeroProps) {
   return (
     <div className="relative w-full h-[85vh] lg:h-[90vh] flex items-center">
       {/* Background Image */}
@@ -39,7 +40,9 @@ export default function Hero({ movie, onOpenModal }: HeroProps) {
         <div className="flex items-center gap-4">
           <button
             onClick={() => {
-              if (movie.link) {
+              if (onPlay) {
+                onPlay(movie);
+              } else if (movie.link) {
                 window.location.href = movie.link;
               } else {
                 onOpenModal(movie);

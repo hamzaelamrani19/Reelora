@@ -105,7 +105,10 @@ export default function MovieRow({ title, movies, onOpenModal, onTitleClick }: M
         </div>
 
         <button
-          className="absolute top-0 bottom-0 right-0 bg-black/50 z-30 w-12 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition duration-300 hover:bg-black/70"
+          className={clsx(
+            "absolute top-0 bottom-0 right-0 bg-black/50 z-30 w-12 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition duration-300 hover:bg-black/70",
+            movies.length === 0 && "hidden"
+          )}
           onClick={() => handleClick("right")}
         >
           <ChevronRight className="w-8 h-8" />

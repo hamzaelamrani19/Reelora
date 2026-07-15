@@ -563,7 +563,7 @@ function MainContent() {
         setHistory(JSON.parse(saved));
       } catch (e) {}
     } else {
-      setHistory(continueWatching);
+      setHistory([]);
     }
   }, []);
 
@@ -640,6 +640,18 @@ function MainContent() {
       localStorage.setItem("netmirror_history", JSON.stringify(updated));
       return updated;
     });
+  };
+
+  const handlePlay = (movie: Movie) => {
+    setHistory(prev => {
+      const newHistory = prev.filter(m => m.id !== movie.id);
+      const updated = [movie, ...newHistory].slice(0, 20);
+      localStorage.setItem("netmirror_history", JSON.stringify(updated));
+      return updated;
+    });
+    if (movie.link) {
+      window.location.href = movie.link;
+    }
   };
 
   const matchCategory = (movie: Movie) => {
@@ -729,7 +741,7 @@ function MainContent() {
         </div>
       ) : (
         <>
-          <Hero movie={dynamicHero} onOpenModal={handleOpenModal} />
+          <Hero movie={dynamicHero} onOpenModal={handleOpenModal} onPlay={handlePlay} />
           
           <div className="-mt-32 relative z-20">
             <NoticeBanner />
@@ -748,7 +760,7 @@ function MainContent() {
                       <div
                         key={movie.id}
                         className="relative aspect-[2/3] cursor-pointer transition duration-300 transform md:hover:scale-105 hover:z-40 group/card"
-                        onClick={() => setDynamicHero(movie)}
+                        onClick={() => handleOpenModal(movie)}
                       >
                          <div className="absolute inset-0 z-10 rounded overflow-hidden shadow-[0_0_15px_rgba(0,0,0,0.5)] border border-transparent hover:border-gray-500 bg-[#141414]">
                           <Image
@@ -778,7 +790,7 @@ function MainContent() {
                 
                 {emmy.length > 0 && <MovieRow title="TV Series" movies={emmy} onOpenModal={handleOpenModal} onTitleClick={() => router.push('/?search=' + encodeURIComponent('TV Series'))} />}
                 
-                {continueW.length > 0 && <MovieRow title="Continue Watching for You" movies={continueW} onOpenModal={handleOpenModal} />}
+                <MovieRow title="Continue Watching for You" movies={continueW} onOpenModal={handleOpenModal} />
                 
                 {animationAnime.length > 0 && <MovieRow title="Animation & Anime" movies={animationAnime} onOpenModal={handleOpenModal} onTitleClick={() => router.push('/?search=' + encodeURIComponent('Animation & Anime'))} />}
               </div>
@@ -792,6 +804,7 @@ function MainContent() {
         onClose={() => setSelectedMovie(null)} 
         allContent={uniqueContent} 
         onSelectMovie={handleOpenModal}
+        onPlay={handlePlay}
       />
     </main>
   );

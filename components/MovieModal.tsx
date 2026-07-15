@@ -11,9 +11,10 @@ interface MovieModalProps {
   onClose: () => void;
   allContent?: Movie[];
   onSelectMovie?: (movie: Movie) => void;
+  onPlay?: (movie: Movie) => void;
 }
 
-export default function MovieModal({ movie, onClose, allContent = [], onSelectMovie }: MovieModalProps) {
+export default function MovieModal({ movie, onClose, allContent = [], onSelectMovie, onPlay }: MovieModalProps) {
   useEffect(() => {
     if (movie) {
       document.body.style.overflow = "hidden";
@@ -77,7 +78,9 @@ export default function MovieModal({ movie, onClose, allContent = [], onSelectMo
               <div className="flex items-center gap-3">
                 <button 
                   onClick={() => {
-                    if (movie.link) {
+                    if (onPlay) {
+                      onPlay(movie);
+                    } else if (movie.link) {
                       window.location.href = movie.link;
                     }
                   }}
