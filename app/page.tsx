@@ -346,6 +346,9 @@ function MainContent() {
   useEffect(() => {
     const TMDB_API_KEY = "36d5bd68af176dcddf45c89ce6e5160e";
     const specificTvMovies = [
+      "Super Girl",
+      "Masters of the Universe",
+      "The Death of Robin Hood",
       "Primitive War",
       "Steve",
       "Mosul",

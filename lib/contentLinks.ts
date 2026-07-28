@@ -134,4 +134,8 @@ export const contentLinks: Record<string, string> = {
   "Iyanu": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+GNi6mIx8jydlNTE0",
   "Zootopia 2": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+4E3xJaRxWMsxNDM0",
   "Zootopia": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+4E3xJaRxWMsxNDM0",
+
+  "Super Girl": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+Sww2ebxWj104MGQ0",
+  "Masters of the Universe": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+BnOCYRMti1Q2NWQ8",
+  "The Death of Robin Hood": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+0DoV4_lz81dmYTJk",
 };
