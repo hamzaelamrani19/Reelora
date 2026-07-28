@@ -246,6 +246,10 @@ function MainContent() {
   useEffect(() => {
     const TMDB_API_KEY = "36d5bd68af176dcddf45c89ce6e5160e";
     const specificShows = [
+      "The Queen's Gambit",
+      "Snowfall",
+      "Polygamist",
+      "Euphoria",
       "I Will Find You",
       "Teach You a Lesson",
       "The WONDERfools",
@@ -342,6 +346,22 @@ function MainContent() {
   useEffect(() => {
     const TMDB_API_KEY = "36d5bd68af176dcddf45c89ce6e5160e";
     const specificTvMovies = [
+      "Primitive War",
+      "Steve",
+      "Mosul",
+      "Straw",
+      "The Electric State",
+      "The Weekend",
+      "The Moment",
+      "A Green Fever",
+      "Tormento",
+      "This Is I",
+      "Wardriver",
+      "Seven Snipers",
+      "Ip Man: Kung Fu Legend",
+      "The Get Out",
+      "Blast",
+      "Hungry",
       "Karate Kid Legends",
       "Spider-Man: Homecoming",
       "The Batman",
@@ -426,7 +446,31 @@ function MainContent() {
       "Five Nights at Freddy’s 2",
       "Chainsaw Man The Movie: Reze Arc",
       "Anaconda",
-      "A Great Awakening"
+      "A Great Awakening",
+      "Backrooms",
+      "Strung",
+      "Pressure",
+      "Office Romance",
+      "Tom Clancy's Jack Ryan: Ghost War",
+      "The Punisher: One Last Kill",
+      "Falling for Love",
+      "Swapped",
+      "Monica",
+      "Forbidden Fruits",
+      "They Will Kill You",
+      "Dirty Hands",
+      "Panda Plan: The Magical Tribe",
+      "Apex",
+      "Vengeance",
+      "Ready or Not",
+      "Ready or Not 2: Here I Come",
+      "Thrash",
+      "Pizza Movie",
+      "The Bride",
+      "Send Help",
+      "Do Not Enter",
+      "Diabolic",
+      "The Dreadful"
     ];
 
     const fetchSpecificMovies = async () => {
@@ -485,6 +529,15 @@ function MainContent() {
   useEffect(() => {
     const TMDB_API_KEY = "36d5bd68af176dcddf45c89ce6e5160e";
     const specificAnime = [
+      "Charlie the Wonderdog",
+      "Hexed",
+      "David",
+      "Moana 2",
+      "Iyanu",
+      "Stranger Things: Tales from '85",
+      "The Legend of Aang: The Last Airbender",
+      "Zootopia 2",
+      "Zootopia",
       "GOAT",
       "The Super Mario Bros. Movie", // Fallback for The Super Mario Galaxy Movie if not found, let's keep original names first but TMDB uses search anyway.
       "The Super Mario Galaxy Movie", 

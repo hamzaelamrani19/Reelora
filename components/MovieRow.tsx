@@ -47,6 +47,8 @@ export default function MovieRow({ title, movies, onOpenModal, onTitleClick }: M
     return () => clearInterval(interval);
   }, [isHovered]);
 
+  if (!movies || movies.length === 0) return null;
+
   return (
     <div className="py-4 md:py-6 relative z-20" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
       <h2 
