@@ -1,5 +1,4 @@
 export const contentLinks: Record<string, string> = {
-  // TV Series
   "A Knight of the Seven Kingdoms": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+XEjnkxUppkI1NDRk",
   "Andor": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+q-BcIL3jt304Nzhk",
   "Star Wars: Andor": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+dP7gz2vGh2U2YWE0",
@@ -25,13 +24,11 @@ export const contentLinks: Record<string, string> = {
   "The Witness": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+BG46x2a4Ud84NDE0",
   "The wheel of time": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+DqUmBS_j7v0zOTNk",
   "The polygamist": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+Mu6PwhymUzg3ODNk",
-
-  // Movies
   "28 Years Later": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+jxc7OZVPuEkyOTZk",
   "A Great Awakening": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+uH4SHODZuR1iMDBk",
   "Anaconda": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+8J5L65JRmhU1M2U8",
   "Avatar: Fire and Ash": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+kIgVMeVHVeplYTNk",
-  "Blades of the Guardians": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+TNPcr3W9gGgwM2Q0",
+  "Blades of the Guardians": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+1g06YOyj4iBmMjVk",
   "Bullet Train": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+8txZ6Nus4_oxZjI0",
   "Chainsaw Man The Movie: Reze Arc": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+j7nwO7njm71iZWE0",
   "Chainsaw Man: Reze Arc": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+j7nwO7njm71iZWE0",
@@ -59,7 +56,7 @@ export const contentLinks: Record<string, string> = {
   "Now You See Me: Now You Don’t": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+j5wQygCetuJjODQ0",
   "Over Your Dead Body": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+2z6ozCGL0nwzNGJk",
   "Peaky Blinders: Immortal Man": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+oxoT0a4rg-wyODY0",
-  "Peaky Blinders: The Immortal Man": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+oxoT0a4rg-wyODY0",
+  "Peaky Blinders: The Immortal Man": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+2W2ubizeIOZlNjg0",
   "Predator: Badlands": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+jhwvgsOZQPgzN2Nk",
   "Project Hail Mary": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+uFbKWP0aRtY2OTM8",
   "Scary Movie": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+D25EcxXFlHxiOTg0",
@@ -81,8 +78,6 @@ export const contentLinks: Record<string, string> = {
   "Wake Up Dead Man": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+5ocsfH06etI0NjM0",
   "Wake Up Dead Man: A Knives Out Mystery": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+5ocsfH06etI0NjM0",
   "War Machine": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+q9T96gtspBE3Y2Fk",
-
-  // Animation & Anime
   "Aztec Batman": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+Lo5t-2BT5vJkZTA0",
   "Fixed": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+LaWuCJzpLWNjNmQ0",
   "GOAT": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+1ImNuq6s328yZTc0",
@@ -92,7 +87,6 @@ export const contentLinks: Record<string, string> = {
   "Smurfs": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+c9nuQTkP9v8zNzM0",
   "The Super Mario Galaxy Movie": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+0HcKSpkGrK5iYmI8",
   "The Super Mario Bros. Movie": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+0HcKSpkGrK5iYmI8",
-
   "The Equalizer": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+dtVVmiAwWN4zMWI0",
   "The Equalizer 3": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+dtVVmiAwWN4zMWI0",
   "Purple Hearts": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+AU9KFnojZlFiZDlk",
@@ -122,11 +116,9 @@ export const contentLinks: Record<string, string> = {
   "The Get Out": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+t6n0iD5m3aJkNWNk",
   "Blast": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+JSMLy48ESuA1Y2Y8",
   "Hungry": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+5Vz4XI-QlMsxNjg0",
-
   "The Queen's Gambit": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+YQpn7Wq3y4AyNDVk",
   "Snowfall": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+6IJaVKMYFxljMGRk",
   "Elle": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+0OjkKji05D42Y2M0",
-
   "Charlie the Wonderdog": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+LrT1Dm1mw2EzOGZk",
   "Hexed": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+tyRW1eEOCJwyMWNk",
   "David": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+Y4YtrurX0KI4MDVk",
@@ -134,8 +126,27 @@ export const contentLinks: Record<string, string> = {
   "Iyanu": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+GNi6mIx8jydlNTE0",
   "Zootopia 2": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+4E3xJaRxWMsxNDM0",
   "Zootopia": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+4E3xJaRxWMsxNDM0",
-
   "Super Girl": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+Sww2ebxWj104MGQ0",
   "Masters of the Universe": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+BnOCYRMti1Q2NWQ8",
   "The Death of Robin Hood": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+0DoV4_lz81dmYTJk",
+  "Leviticus": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+qK5me3X3wzY0YTk0",
+  "Killer Whale": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+U7gnp6FKpNowZDA8",
+  "Timur": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+n7PCkOCPGwkwZGJk",
+  "The Dreadful": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+NPzL9F7p7BRlOTRk",
+  "The Black Phone 2": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+sbLkz9GhBhdjZWJk",
+  "Fist to Fist": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+Rqr1eg_TGAhkOWQ0",
+  "Do Not Enter": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+c7x7gX6TQcFhYzA0",
+  "Dhurandhar The Revenge Raw & Undekha": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+0GgXgT1BCxBhMjA0",
+  "Citizen Vigilante": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+db9ybUzQjykyMjE8",
+  "23 000 Lives": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+AufCFf-3M0I5ZjI8",
+  "The Devil's Mouth": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+_qymBmGAAytiYWVk",
+  "Killhouse": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+xSiq-CBRRhkxNTZk",
+  "The Mandalorian and Grogu": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+EyiHvWaMpys0Nzc0",
+  "The Punisher: One Last Kill": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+9od7ewfjSLoyYWY0",
+  "Trick And Treats": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+gth97f_nSfhiZGQ0",
+  "Immortal Combat": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+FBQ4ALPKmIo1NjY0",
+  "Unconditional": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+ayDFlAQaUG4xYWE0",
+  "Wonder Man": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+sMGqO3ZuyqdkOGZk",
+  "THE CHI": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+n8MqHHdFIYE0MWM8",
+  "HUMAN VAPOR": "https://snapagift.online/cl/i/7jve99?url=https://t.me/+j5_r9ldyb4U4Y2Fk",
 };
